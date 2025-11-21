@@ -3,151 +3,167 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font/css/materialdesignicons.min.css">
 </head>
 <body>
     <div class="container">
-
-        <div class="sidebar">
+        <div class="side-bar">
             <div class="logo">
-                <svg></svg>
+                <span class="mdi mdi-baguette" style="font-size: 32px;"></span>
                 <h1>Dashboard</h1>
             </div>
-
+            
             <div class="user-explore">
                 <div class="sidebar-card">
-                    <svg></svg>
+                    <span class="mdi mdi-home"></span>
                     <span>Home</span>
                 </div>
                 <div class="sidebar-card">
-                    <svg></svg>
+                    <span class="mdi mdi-message"></span>
                     <span>Messages</span>
                 </div>
                 <div class="sidebar-card">
-                    <svg></svg>
+                    <span class="mdi mdi-bell"></span>
                     <span>Notification</span>
                 </div>
                 <div class="sidebar-card">
-                    <svg></svg>
+                    <span class="mdi mdi-help-circle"></span>
                     <span>Help</span>
-                </div>
-
-                <div class="profile">
-                    <img src="profile" alt="">
-                    <span>Name</span>
                 </div>
             </div>
 
             <div class="user-settings">
                 <div class="sidebar-card">
-                    <svg></svg>
+                    <span class="mdi mdi-cog"></span>
                     <span>Settings</span>
                 </div>
                 <div class="sidebar-card">
-                    <svg></svg>
+                    <span class="mdi mdi-lock"></span>
                     <span>Privacy</span>
                 </div>
                 <div class="sidebar-card">
+                    <span class="mdi mdi-account"></span>
                     <span>About Me</span>
                 </div>
             </div>
         </div>
 
-        <div class="upper-nav">
-            <div class="left-nav">
-                <svg>search</svg>
-                <input type="text">
-            </div>
+        <div class="contents">
+            <div class="nav">
+                <div class="upper-nav">
+                    <div class="left-nav">
+                        <span class="mdi mdi-magnify" style="font-size: 22px;"></span>
+                        <input type="text" placeholder="Search...">
+                    </div>
 
-            <div class="right-nav">
-                <img src="profile" alt="">
-                <span>evermyoui</span>
-            </div>
-        </div>
-
-        <div class="lower-nav">
-            <img src="profile" alt="">
-            <span>Welcome Back!</span>
-            <span>evermyoui</span>
-        </div>
-
-        <div class="content">
-            <div class="study-time">
-                <ul>
-                    <li>
-                        <span>Montag</span>
-                        <svg></svg>
-                    </li>
-                    <li>
-                        <span>Dienstag</span>
-                        <svg></svg>
-                    </li>
-                    <li>
-                        <span>Mittwoch</span>
-                        <svg></svg>
-                    </li>
-                    <li>
-                        <span>Donnerstag</span>
-                        <svg></svg>
-                    </li>
-                    <li>
-                        <span>Freitag</span>
-                        <svg></svg>
-                    </li>
-                    <li>
-                        <span>Samstag</span>
-                        <svg></svg>
-                    </li>
-                    <li>
-                        <span>Sonntag</span>
-                        <svg></svg>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="projects">
-                <div class="text-projects">
-                    <span>My Projects</span>
+                    <div class="right-nav">
+                        <img src="./img/mina.png" alt="mina" class="mina" height="40px">
+                        <span>evermyoui</span>
+                    </div>
                 </div>
 
-                <div class="repos">
-                    <div class="card">
-                        <span>OOP Practices</span>
-                        <img src="" alt="">
-                    </div>
-
-                    <div class="card">
-                        <span>Sign Up</span>
-                        <img src="" alt="">
-                    </div>
-                    <div class="card">
-                        <span>Calculator</span>
-                        <img src="" alt="">
-                    </div>
-                    <div class="card">
-                        <span>Etch A Sketch</span>
-                        <img src="" alt="">
-                    </div>
-                    <div class="card">
-                        <span>Rocks, Paper, Scissors</span>
-                        <img src="" alt="">
+                <div class="lower-nav">
+                    <img src="./img/mina.png" alt="mina" class="mina" height="100px">
+                    <div>
+                        <span>Welcome Back!</span>
+                        <span class="name">evermyoui</span>
                     </div>
                 </div>
             </div>
-            <div class="others">
-                <div class="title">
-                    <h2>Others</h2>
+
+            <div class="main-content">
+                <h2>Study Time</h2>
+                <div class="study-time">
+                    <ul>
+                        <li>
+                            <span>Montag</span>
+                            <svg height="20px" width="70%">
+                                <rect x="33" y="4" width="55" height="20" fill="#000000">
+                            </svg>
+                        </li>
+                        <li>
+                            <span>Dienstag</span>
+                            <svg height="20px" width="70%">
+                                <rect x="25" y="4" width="350" height="20" fill="#000000">
+                            </svg>
+                        </li>
+                        <li>
+                            <span>Mittwoch</span>
+                            <svg height="20px" width="70%">
+                                <rect x="23" y="4" width="500" height="20" fill="#000000">
+                            </svg>
+                        </li>
+                        <li>
+                            <span>Donnerstag</span>
+                            <svg height="20px" width="70%">
+                                <rect x="5" y="4" width="150" height="20" fill="#000000">
+                            </svg>
+                        </li>
+                        <li>
+                            <span>Freitag</span>
+                            <svg height="20px" width="70%">
+                                <rect x="40" y="4" width="50" height="20" fill="#000000">
+                            </svg>
+                        </li>
+                        <li>
+                            <span>Samstag</span>
+                            <svg height="20px" width="70%">
+                                <rect x="27" y="4" width="70" height="20" fill="#000000">
+                            </svg>
+                        </li>
+                        <li>
+                            <span>Sonntag</span>
+                            <svg height="20px" width="70%">
+                                <rect x="30" y="4" width="700" height="20" fill="#000000">
+                            </svg>
+                        </li>
+                    </ul>
                 </div>
 
-                <div class="musics">
-                    <div class="music-card"></div>
-                    <div class="music-card"></div>
-                    <div class="music-card"></div>
-                    <div class="music-card"></div>
-                    <div class="music-card"></div>
+                <div class="projects">
+                    <h2>My Projects</h2>
+                    <div class="repos">
+                        <div class="card">
+                            <h3>Sign Up</h3>
+                            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, sed? Temporibus magni nam, cum beatae eveniet ab libero repellendus doloremque consectetur id quidem magnam odio eaque quod numquam dolores eos!</span>
+                            <a href="https://evermyoui.github.io/sign-up/" target="_blank" class="card-img">
+                                <img src="./img/sign-up.png" alt="signup" height="200px" width="300px">
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h3>Calculator</h3>
+                            <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quibusdam corrupti voluptates est debitis adipisci cupiditate eligendi cum neque tempore harum quia illum error, cumque atque ut eum aliquid quas!</span>
+                            <a href="https://evermyoui.github.io/top_calculator/" target="_blank" class="card-img">
+                                <img src="./img/calculator.png" alt="calculator" height="200px" width="300px">
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h3>Etch a Sketch</h3>
+                            <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt rem sequi neque debitis nobis praesentium eveniet amet voluptatibus cupiditate impedit dolorem asperiores ullam unde sint delectus est error, ipsa dolor?</span>
+                            <a href="https://evermyoui.github.io/etch-a-sketch/" target="_blank" class="card-img">
+                                <img src="./img/etchasketch.png" alt="etch-a-sketch" height="200px" width="300px">
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h3>Rock, Paper , Scissors</h3>
+                            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque dolorem, ipsam, voluptates vel iste placeat totam, eum labore aperiam consequatur at quos iure repellat fuga corporis quod exercitationem rem suscipit?</span>
+                            <a href="https://evermyoui.github.io/rockpaperscissors/" target="_blank" class="card-img">
+                                <img src="./img/rockpaperscissor.png" alt="rockpaperscissors" height="200px" width="300px">
+                            </a>
+                        </div>
+                        <div class="card">
+                            <h3>Joke API</h3>
+                            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, atque. Consequatur sint asperiores repellat cupiditate aliquam iste officia modi aspernatur mollitia error facilis soluta, esse impedit ullam unde quasi ex.</span>
+                            <a href="https://evermyoui.github.io/joke-api-practice/" target="_blank" class="card-img">
+                                <img src="./img/joke-api.png" alt="jokeapi" height="200px" width="300px">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            
         </div>
     </div>
 </body>
